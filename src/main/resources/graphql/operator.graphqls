@@ -1,0 +1,21 @@
+input StringOperators{
+    ne: String
+    eq: String
+    contains: String
+    in: [String]
+    startsWith: String
+}
+
+input NumberRange{
+    start: Int!
+    end: Int!
+}
+
+input NumberOperators{
+    eq: Int
+    lt: Int
+    lte: Int
+    gt: Int
+    gte: Int
+    between: NumberRange
+}

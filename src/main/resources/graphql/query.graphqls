@@ -1,0 +1,13 @@
+scalar Long
+
+type Query{
+#    version: String!
+}
+
+interface BaseType{
+    id: ID!
+    updatedBy: String
+    updatedAt: String
+    createdBy: String
+    createdAt: String
+}
