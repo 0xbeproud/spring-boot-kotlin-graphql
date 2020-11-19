@@ -26,9 +26,9 @@ dependencies {
     implementation ("com.graphql-java:graphiql-spring-boot-starter:5.0.2")
     implementation ("com.graphql-java:voyager-spring-boot-starter:5.0.2")
     implementation ("com.graphql-java:graphql-java-tools:5.2.4")
+    implementation("com.h2database:h2")
 
     developmentOnly("org.springframework.boot:spring-boot-devtools")
-    runtime("com.h2database:h2")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
